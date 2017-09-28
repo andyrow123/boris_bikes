@@ -14,7 +14,7 @@ class DockingStation
   end
 
   def check_full?
-
+    fail 'No bikes available'
   end
 
 end
