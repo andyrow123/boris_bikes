@@ -53,7 +53,7 @@ describe DockingStation do
 
   it "raises an error when the DockingStation is already taken" do
     expect {subject.check_full?}.to raise_error
-    expect{subject.count}.to eq(0)
+    expect{subject.count}.to eq(1)
   end
 
 
