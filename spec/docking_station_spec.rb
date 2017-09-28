@@ -10,7 +10,7 @@ describe DockingStation do
   it 'is of class DockingStation' do
     expect(subject).to be_instance_of DockingStation
   end
-  
+
 #  no longer creating a Bike object therefore
 # we no longer have access to the Bike working method.
 
@@ -49,6 +49,10 @@ describe DockingStation do
 
   it "raises an error when release_bike is called" do
     expect {subject.release_bike}.to raise_error
+  end
+
+  it "raises an error when the DockingStation is already taken" do
+    expect {subject.check_full?}.to raise_error
   end
 
 end

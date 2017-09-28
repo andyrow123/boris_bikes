@@ -13,4 +13,8 @@ class DockingStation
     @bike = bike
   end
 
+  def check_full?
+
+  end
+
 end
