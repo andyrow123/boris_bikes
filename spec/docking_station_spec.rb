@@ -10,15 +10,18 @@ describe DockingStation do
   it 'is of class DockingStation' do
     expect(subject).to be_instance_of DockingStation
   end
+  
+#  no longer creating a Bike object therefore
+# we no longer have access to the Bike working method.
 
-  it 'should get a bike' do
-    bike = subject.release_bike
-    expect(bike).to be_working
-  end
+  # it 'should get a bike' do
+  #   bike = subject.release_bike
+  #   expect(bike).to be_working
+  # end
 
-  it 'expects the bike to be working' do
-    expect(subject.release_bike.working?).to eq(true)
-  end
+  # it 'expects the bike to be working' do
+  #   expect(subject.release_bike.working?).to eq(true)
+  # end
 
   it { is_expected.to respond_to(:release_bike) }
 
@@ -34,6 +37,14 @@ describe DockingStation do
     subject.dock_bike(bike)
     expect(subject.bike).to eq bike
 
+  end
+
+  describe "#release_bike" do
+    it "expects to apply release_bike " do
+        bike = Bike.new
+        subject.dock_bike(bike)
+        expect(subject.release_bike).to eq bike
+    end
   end
 
   # it "raises an error when release_bike is called" do
