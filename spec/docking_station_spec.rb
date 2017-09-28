@@ -47,8 +47,8 @@ describe DockingStation do
     end
   end
 
-  # it "raises an error when release_bike is called" do
-  #   expect {subject.release_bike}.to raise_error
-  # end
+  it "raises an error when release_bike is called" do
+    expect {subject.release_bike}.to raise_error
+  end
 
 end

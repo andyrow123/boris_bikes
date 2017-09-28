@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e29c9f1b-41a4-4769-a7b3-ddb00531fbfb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/bike.rb" afterPath="$PROJECT_DIR$/lib/bike.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/docking_station.rb" afterPath="$PROJECT_DIR$/lib/docking_station.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/bike_spec.rb" afterPath="$PROJECT_DIR$/spec/bike_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/docking_station_spec.rb" afterPath="$PROJECT_DIR$/spec/docking_station_spec.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,21 +17,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="docking_station_spec.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="docking_station_spec.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/docking_station_spec.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+                <state relative-caret-position="735">
+                  <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="52" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="docking_station.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="docking_station.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/docking_station.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -230,12 +228,12 @@
       <workItem from="1506437286877" duration="1211000" />
       <workItem from="1506501732092" duration="762000" />
       <workItem from="1506505243598" duration="7621000" />
-      <workItem from="1506596104726" duration="7090000" />
+      <workItem from="1506596104726" duration="7756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16684000" />
+    <option name="totallyTimeSpent" value="17350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="975" extended-state="0" />
@@ -366,16 +364,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/docking_station_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="735">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/docking_station.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
